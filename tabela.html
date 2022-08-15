@@ -19,24 +19,43 @@
             text-decoration: none;
         }
         div.scrollmenu a:hover {
-            background-color: blue;
+            background-color: rgb(36, 36, 99)
         }
+
+        body {
+            background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))
+        }
+
+        .title {
+              font-style: italic;
+              
+                
+            }
+
+            .tab {
+                border-collapse: collapse;
+                border-color: black;
+                margin: auto;
+            }
+
+        
+    
     </style>
 </head>
 
 <body> 
     <center>
-        <H1> PetStop </H1>
+        <H1 class="title"> PetStop </H1>
         </center>
        
         <div class="scrollmenu">
              <center>
-                <a href="#scrollmenu">Home</a>          
-                <a href="#scrollmenu">Loja</a> 
-                <a href="#scrollmenu">Agenda</a> 
+                <a href="index.html">Home</a>          
+                <a href="tabela.html">Loja</a> 
+                <a href="agenda.html">Agenda</a> 
                 <a href="#scrollmenu">Adoção</a> 
-                <a href="#scrollmenu">Contato</a> 
-                <a href="#scrollmenu">Fale Conosco</a>
+                <a href="contato.html">Contato</a> 
+                <a href="formulario.html">Fale Conosco</a>
             </center>
          </div>
     
@@ -45,24 +64,44 @@
         </center>
         <p></p>
 
-    <table style border = 1> 
+    <table class= "tab" style border = 1> 
         <thead>
-            <td> Prote do animal  </td>
+            <td>Prote do animal</td>
             <td>Nome</td>
             <td>Preço</td>
         </thead>      
         <tbody>
-            <td rowspan="2">Pequeno</td>
+            <td>Pequeno</td>
             <td>Whiskaes</td>
             <td>R$:18,99</td>
         </tbody>
         <tbody>
-            <td>Pedigree</td>
+            <td>Grande</td>
             <td>Whiskas</td>
             <td>R$:18,99</td>
         </tbody>
         <tbody>
-            <td></td>
+            <td>Grande</td>
+            <td>champ</td>
+            <td>R$:119,99</td>
+        </tbody>
+
+        <tbody>
+            <td>Grande</td>
+            <td>SpecialDog</td>
+            <td>R$:110,00</td>
+        </tbody>
+
+        <tbody>
+            <td>Pequeno</td>
+            <td>Pro Plan</td>
+            <td>R$:267,00</td>
+        </tbody>
+
+        <tbody>
+            <td>Pequeno</td>
+            <td>Premier Pet</td>
+            <td>R$:220,40</td>
         </tbody>
 
     </table>
